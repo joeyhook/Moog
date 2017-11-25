@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="RmBA6H" name="LinearMoogVCFwSideChain" displaySplashScreen="1"
+              reportAppUsage="1" splashScreenColour="Dark" projectType="audioplug"
+              version="1.0.0" bundleIdentifier="com.joeyhook.LinearMoogVCFwSideChain"
+              includeBinaryInAppConfig="1" cppLanguageStandard="11" buildVST="1"
+              buildVST3="1" buildAU="1" buildAUv3="0" buildRTAS="0" buildAAX="0"
+              buildStandalone="0" enableIAA="0" pluginName="LinearMoogVCFwSideChain"
+              pluginDesc="LinearMoogVCFwSideChain" pluginManufacturer="joeyhook"
+              pluginManufacturerCode="Hook" pluginCode="linM" pluginChannelConfigs=""
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="linmoogwsidechainAU"
+              pluginRTASCategory="" aaxIdentifier="com.joeyhook.LinearMoogVCFwSideChain"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="5.1.1"
+              companyName="joeyhook" companyEmail="joeyhook@gmail.com">
+  <MAINGROUP id="wY8kfc" name="LinearMoogVCFwSideChain">
+    <GROUP id="{DA13E651-5898-2F06-0560-19C0752D1627}" name="Source">
+      <FILE id="FPpQ0T" name="LinearJoeyMoogSC.cpp" compile="1" resource="0"
+            file="Source/LinearJoeyMoogSC.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="LinearMoogVCFwSideChain"/>
+        <CONFIGURATION name="Release32" isDebug="0" optimisation="3" targetName="LinearMoogVCFwSideChain32"
+                       osxArchitecture="32BitUniversal"/>
+        <CONFIGURATION name="Release64" isDebug="0" optimisation="3" targetName="LinearMoogVCFwSideChain64"
+                       osxArchitecture="64BitIntel"/>
+        <CONFIGURATION name="Release3264" isDebug="0" optimisation="3" targetName="LinearMoogVCFwSideChain3264"
+                       osxArchitecture="64BitUniversal"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_video" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/JUCE newer/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/JUCE newer/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
