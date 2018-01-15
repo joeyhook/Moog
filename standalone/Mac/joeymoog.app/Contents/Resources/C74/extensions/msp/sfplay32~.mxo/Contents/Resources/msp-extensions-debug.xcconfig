@@ -1,0 +1,6 @@
+#include "../msp-externs/msp-external-debug.xcconfig"
+
+DSTROOT = $(EXTENSIONS_ROOT)/msp
+
+HEADER_SEARCH_PATHS = $(HEADER_SEARCH_PATHS_COMMON) "$(C74SUPPORT)/msp-includes" "$(C74SUPPORT)/jit-includes"
+FRAMEWORK_SEARCH_PATHS = $(FRAMEWORK_SEARCH_PATHS_COMMON) "$(C74SUPPORT)/msp-includes/$(C74_FRAMEWORK_PATH_SUFFIX)" "$(C74SUPPORT)/jit-includes/$(C74_FRAMEWORK_PATH_SUFFIX)"
