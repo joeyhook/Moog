@@ -1,7 +1,0 @@
-#include "../../c74support/max-includes/max-external-debug.xcconfig"
-
-DSTROOT = $(EXTERNALS_ROOT)/msp
-HEADER_SEARCH_PATHS = $(HEADER_SEARCH_PATHS_COMMON) "$(C74SUPPORT)/msp-includes" "$(C74SUPPORT)/jit-includes"
-FRAMEWORK_SEARCH_PATHS = $(FRAMEWORK_SEARCH_PATHS_COMMON) "$(C74SUPPORT)/msp-includes/$(C74_FRAMEWORK_PATH_SUFFIX)" "$(C74SUPPORT)/jit-includes/$(C74_FRAMEWORK_PATH_SUFFIX)"
-
-C74_SYM_LINKER_FLAGS_MSP = -Wl,-U,_dsp_add,-U,_dsp_add64,-U,_z_add_signalmethod,-U,_z_dsp_free,-U,_z_dsp_setup,-U,_class_dspinit,-U,_buffer_getchannelcount,-U,_buffer_getframecount,-U,_buffer_getsamplerate,-U,_buffer_getmillisamplerate,-U,_buffer_locksamples,-U,_buffer_unlocksamples,-U,_buffer_ref_exists,-U,_buffer_ref_getobject,-U,_buffer_ref_new,-U,_buffer_ref_notify,-U,_buffer_setdirty,-U,_class_dspinitjbox,-U,_sys_getdspobjdspstate,-U,_sys_getdspstate,-U,_z_jbox_dsp_free,-U,_z_jbox_dsp_setup,-U,_dsp_resize,-U,_dspchain_start,-U,_dspchain_compile2,-U,_dspchain_tick,-U,_buffer_getinfo

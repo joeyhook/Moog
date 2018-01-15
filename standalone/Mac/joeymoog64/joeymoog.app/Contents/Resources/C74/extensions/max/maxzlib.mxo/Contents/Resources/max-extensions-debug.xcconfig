@@ -1,0 +1,3 @@
+#include "../../c74support/max-includes/max-external-debug.xcconfig"
+
+DSTROOT = $(EXTENSIONS_ROOT)/max
