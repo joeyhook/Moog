@@ -111,7 +111,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1051.0, 312.0, 50.0, 160.0 ],
+					"patching_rect" : [ -1051.0, 312.0, 53.0, 160.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 1224.15625, 352.476563, 92.0, 105.0 ],
 					"style" : "",
 					"text" : "plug C:/Program Files/Cycling '74/Max 7/NonLinearMoogVCFwSideChain.dll"
 				}
@@ -138,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1122.0, 85.375, 143.0, 64.0 ],
+					"patching_rect" : [ -1122.0, 85.375, 145.0, 64.0 ],
 					"style" : "",
 					"text" : "C:/Program Files/Cycling '74/Max 7/NonLinearMoogVCFwSideChain.dll"
 				}
@@ -165,7 +168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1025.0, -23.0, 121.0, 50.0 ],
+					"patching_rect" : [ -1025.0, -23.0, 125.0, 50.0 ],
 					"style" : "",
 					"text" : "\"C:/Program Files/Cycling '74/Max 7/\""
 				}
@@ -301,11 +304,11 @@
 						"audiosupport" : 1,
 						"bundleidentifier" : "com.mycompany.myprogram",
 						"cantclosetoplevelpatchers" : 0,
-						"cefsupport" : 0,
-						"copysupport" : 0,
-						"database" : 0,
+						"cefsupport" : 1,
+						"copysupport" : 1,
+						"database" : 1,
 						"extensions" : 1,
-						"gensupport" : 0,
+						"gensupport" : 1,
 						"midisupport" : 1,
 						"noloadbangdefeating" : 0,
 						"overdrive" : 0,
@@ -1788,7 +1791,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................BMyLS+....7C"
+							"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................ByLyL+zLyL6C"
 						}
 ,
 						"snapshotlist" : 						{
@@ -1802,6 +1805,17 @@
 									"type" : "VST",
 									"subtype" : "AudioEffect",
 									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "NonLinearMoogVCFwSideChain.dll",
+										"plugindisplayname" : "NonLinearMoogVCFwSideChain",
+										"pluginsavedname" : "~/Documents/GitHub/Moog/NonLinearMoogVCFwSideChain.dll",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................ByLyL+zLyL6C"
+									}
+,
 									"fileref" : 									{
 										"name" : "NonLinearMoogVCFwSideChain",
 										"filename" : "NonLinearMoogVCFwSideChain.maxsnap",
@@ -16304,6 +16318,17 @@
 									"type" : "VST",
 									"subtype" : "AudioEffect",
 									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "NonLinearMoogVCFwSideChain.dll",
+										"plugindisplayname" : "NonLinearMoogVCFwSideChain",
+										"pluginsavedname" : "~/Documents/GitHub/Moog/NonLinearMoogVCFwSideChain.dll",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................BMyLS+....7C"
+									}
+,
 									"fileref" : 									{
 										"name" : "NonLinearMoogVCFwSideChain",
 										"filename" : "NonLinearMoogVCFwSideChain.maxsnap",
@@ -21096,6 +21121,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-233", 0 ],
+					"order" : 1,
+					"source" : [ "obj-561", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"order" : 0,
+					"source" : [ "obj-561", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-532", 0 ],
 					"source" : [ "obj-562", 3 ]
 				}
@@ -21512,14 +21553,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-73" : [ "live.gain~[5]", "live.gain~[5]", 0 ],
-			"obj-233" : [ "vst~[1]", "vst~", 0 ],
-			"obj-193" : [ "live.gain~[6]", "live.gain~[6]", 0 ],
-			"obj-101" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
-			"obj-67" : [ "vst~", "vst~", 0 ],
 			"obj-108" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
+			"obj-107" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
+			"obj-67" : [ "vst~", "vst~", 0 ],
 			"obj-82" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-107" : [ "live.gain~[2]", "live.gain~[1]", 0 ]
+			"obj-193" : [ "live.gain~[6]", "live.gain~[6]", 0 ],
+			"obj-233" : [ "vst~[1]", "vst~", 0 ],
+			"obj-101" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-73" : [ "live.gain~[5]", "live.gain~[5]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -21566,9 +21607,9 @@
 		"styles" : [ 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
+					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"fontsize" : [ 13.0 ],
-					"fontname" : [ "Arial" ],
-					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

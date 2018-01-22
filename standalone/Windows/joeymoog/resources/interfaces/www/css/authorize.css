@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+  }
+
+#signinContainer, 
+#frontpage, 
+#welcomeContainer, 
+#reauth_container, 
+#create_account_container, 
+#activate_account_container {
+  margin-top:80px;
+}
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+.click_area {
+	cursor: pointer; 
+	cursor: hand; 
+}
+
+.click_area:hover {
+	text-decoration: underline;
+}
+
+.has-error a{
+  color: #c96663;
+}
+.error {
+	color: #cc6666;
+	font-size: 13px;
+	margin-bottom: 10px;
+ }
+
+.help_box {
+	padding: 10px;
+	background-color: #555555;
+	margin-top: 4px;
+}
+
+#auth_status span.alert-warning {
+  padding: 2px 4px 2px 4px;
+  border-radius: 2px;
+}
+
+#auth_error {
+  border-radius: 0px 0px 4px 4px;
+  position: fixed;
+  width: 100%;
+  opacity:0.9;
+  top: 0px;
+  left: 0px;
+  z-index:100;
+}
+#auth_error a {
+  color: blue;
+}
+
+#signout_but {
+  margin-top:20px;
+  display:inline-block;
+  margin-bottom: 4px;
+}
+#version {
+  font-size: 1.2em;
+  white-space: nowrap;
+  display: inline-block;
+}
+#info {
+  display: inline-block;
+}
+#expiration {
+  color: #cccccc;
+}
+#expiration.alert-warning {
+  color: #8a6d3b;
+  padding-left:2px;
+}
+
+#max_lic {
+ background-color:gray; 
+ padding: 10px;
+}
+.row-bottom {
+  margin-top:20px;
+}
+.row-top {
+  margin-top: 20px;
+}
