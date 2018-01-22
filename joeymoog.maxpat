@@ -38,6 +38,47 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-318",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -718.0, 499.0, 71.0, 22.0 ],
+					"style" : "",
+					"text" : "open 25 30"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-307",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -727.0, 551.0, 77.0, 22.0 ],
+					"style" : "",
+					"text" : "open 425 30"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-291",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -706.0, 612.0, 33.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1089.869751, 263.960907, 33.0, 22.0 ],
+					"style" : "",
+					"text" : "plug"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-189",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1543,12 +1584,12 @@
 						"snapshot" : 						{
 							"pluginname" : "NonLinearMoogVCFwSideChain.dll",
 							"plugindisplayname" : "NonLinearMoogVCFwSideChain",
-							"pluginsavedname" : "~/Desktop/NonLinearMoogVCFwSideChain.dll",
+							"pluginsavedname" : "NonLinearMoogVCFwSideChain",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................ByLyL+zLyL6C"
+							"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................B655Z9......"
 						}
 ,
 						"snapshotlist" : 						{
@@ -1561,16 +1602,16 @@
 									"origin" : "NonLinearMoogVCFwSideChain.dll",
 									"type" : "VST",
 									"subtype" : "AudioEffect",
-									"embed" : 1,
+									"embed" : 0,
 									"snapshot" : 									{
 										"pluginname" : "NonLinearMoogVCFwSideChain.dll",
 										"plugindisplayname" : "NonLinearMoogVCFwSideChain",
-										"pluginsavedname" : "~/Desktop/NonLinearMoogVCFwSideChain.dll",
+										"pluginsavedname" : "NonLinearMoogVCFwSideChain",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................ByLyL+zLyL6C"
+										"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................B655Z9......"
 									}
 ,
 									"fileref" : 									{
@@ -12357,7 +12398,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -741.25, 573.25, 37.0, 22.0 ],
+					"patching_rect" : [ -769.0, 499.0, 37.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1089.869751, 290.002625, 37.0, 22.0 ],
 					"style" : "",
@@ -16036,11 +16077,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -741.25, 671.224976, 33.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1089.869751, 263.960907, 33.0, 22.0 ],
+					"patching_rect" : [ -761.0, 650.625, 210.0, 22.0 ],
 					"style" : "",
-					"text" : "plug"
+					"text" : "plug NonLinearMoogVCFwSideChain"
 				}
 
 			}
@@ -16085,12 +16124,12 @@
 						"snapshot" : 						{
 							"pluginname" : "NonLinearMoogVCFwSideChain.dll",
 							"plugindisplayname" : "NonLinearMoogVCFwSideChain",
-							"pluginsavedname" : "~/Desktop/NonLinearMoogVCFwSideChain.dll",
+							"pluginsavedname" : "NonLinearMoogVCFwSideChain",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................BMyLS+....7C"
+							"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................B655Z9......"
 						}
 ,
 						"snapshotlist" : 						{
@@ -16107,12 +16146,12 @@
 									"snapshot" : 									{
 										"pluginname" : "NonLinearMoogVCFwSideChain.dll",
 										"plugindisplayname" : "NonLinearMoogVCFwSideChain",
-										"pluginsavedname" : "~/Desktop/NonLinearMoogVCFwSideChain.dll",
+										"pluginsavedname" : "NonLinearMoogVCFwSideChain",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................BMyLS+....7C"
+										"blob" : "68.CMlaKA....fQPMDZ....AzzYyMF.A.......A..........................................B655Z9......"
 									}
 ,
 									"fileref" : 									{
@@ -17626,16 +17665,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-233", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-306", 0 ],
+					"order" : 4,
 					"source" : [ "obj-161", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-306", 0 ],
-					"order" : 4,
+					"destination" : [ "obj-307", 0 ],
+					"order" : 2,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -17650,8 +17689,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-318", 0 ],
+					"order" : 1,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -17659,7 +17698,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -18835,6 +18874,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-233", 0 ],
+					"order" : 1,
+					"source" : [ "obj-291", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"order" : 0,
+					"source" : [ "obj-291", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-230", 0 ],
 					"source" : [ "obj-292", 0 ]
 				}
@@ -18929,6 +18984,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-233", 0 ],
+					"source" : [ "obj-307", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-421", 0 ],
 					"source" : [ "obj-308", 0 ]
 				}
@@ -19002,6 +19064,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-318", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-319", 0 ]
 				}
@@ -19046,7 +19115,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-161", 0 ],
-					"order" : 2,
+					"order" : 5,
 					"source" : [ "obj-328", 0 ]
 				}
 
@@ -19062,7 +19131,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-206", 0 ],
+					"order" : 6,
+					"source" : [ "obj-328", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-307", 0 ],
 					"order" : 3,
+					"source" : [ "obj-328", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-318", 0 ],
+					"order" : 2,
 					"source" : [ "obj-328", 0 ]
 				}
 
@@ -19071,6 +19156,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-338", 0 ],
 					"order" : 0,
+					"source" : [ "obj-328", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"order" : 4,
 					"source" : [ "obj-328", 0 ]
 				}
 
@@ -21185,17 +21278,17 @@
 		"parameters" : 		{
 			"obj-193" : [ "live.gain~[6]", "live.gain~[6]", 0 ],
 			"obj-101" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
-			"obj-233" : [ "vst~[1]", "vst~", 0 ],
-			"obj-108" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
 			"obj-107" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
-			"obj-73" : [ "live.gain~[5]", "live.gain~[5]", 0 ],
 			"obj-67" : [ "vst~", "vst~", 0 ],
-			"obj-82" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-73" : [ "live.gain~[5]", "live.gain~[5]", 0 ],
+			"obj-233" : [ "vst~[1]", "vst~", 0 ],
+			"obj-82" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-108" : [ "live.gain~[3]", "live.gain~[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "cyclevoice.maxpat",
-				"bootpath" : "~/Desktop/Moog-master",
+				"bootpath" : "~/Documents/GitHub/Moog",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -21203,27 +21296,27 @@
 , 			{
 				"name" : "NonLinearMoogVCFwSideChain_20171220.maxsnap",
 				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "../../Max 7/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "NonLinearMoogVCFwSideChain.maxsnap",
 				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "../../Max 7/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "trivoice.maxpat",
-				"bootpath" : "~/Desktop/Moog-master",
+				"bootpath" : "~/Documents/GitHub/Moog",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rectvoice.maxpat",
-				"bootpath" : "~/Desktop/Moog-master",
+				"bootpath" : "~/Documents/GitHub/Moog",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -21237,9 +21330,9 @@
 		"styles" : [ 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
+					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"fontsize" : [ 13.0 ],
-					"fontname" : [ "Arial" ],
-					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -21248,8 +21341,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
