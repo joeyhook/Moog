@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>14F27</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>JoeyMoogMac Helper NP</string>
+	<key>CFBundleExecutable</key>
+	<string>JoeyMoogMac Helper NP</string>
+	<key>CFBundleGetInfoString</key>
+	<string>7.3.4, Copyright 2014 Cycling '74</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.cycling74.MaxHelper.NP</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLongVersionString</key>
+	<string>JoeyMoogMac Helper 7.3.4 (build de5a74a), Copyright 2014 Cycling '74</string>
+	<key>CFBundleName</key>
+	<string>JoeyMoogMac Helper NP</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>7.3.4 (de5a74a)</string>
+	<key>CFBundleSignature</key>
+	<string>max2</string>
+	<key>CFBundleVersion</key>
+	<string>7.3.4</string>
+	<key>CSResourcesFileMapped</key>
+	<false/>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>6A1052d</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>11E52</string>
+	<key>DTSDKName</key>
+	<string>macosx10.7</string>
+	<key>DTXcode</key>
+	<string>0610</string>
+	<key>DTXcodeBuild</key>
+	<string>6A1052d</string>
+	<key>LSArchitecturePriority</key>
+	<array>
+		<string>i386</string>
+		<string>x86_64</string>
+	</array>
+	<key>LSFileQuarantineEnabled</key>
+	<true/>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+</dict>
+</plist>

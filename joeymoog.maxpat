@@ -39,14 +39,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-569",
-					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -774.0, -147.0, 50.0, 91.0 ],
-					"style" : "",
-					"text" : "C:/Users/joey/Documents/GitHub/Moog/"
+					"patching_rect" : [ -774.0, -147.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -106,17 +104,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-561",
-					"linecount" : 11,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1051.0, 312.0, 53.0, 160.0 ],
+					"patching_rect" : [ -1051.0, 312.0, 379.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 7,
-					"presentation_rect" : [ 1224.15625, 352.476563, 92.0, 105.0 ],
+					"presentation_rect" : [ 1224.15625, 352.476562, 80.0, 22.0 ],
 					"style" : "",
-					"text" : "plug C:/Program Files/Cycling '74/Max 7/NonLinearMoogVCFwSideChain.dll"
+					"text" : "plug Macintosh HD:/Applications/NonLinearMoogVCFwSideChain.vst"
 				}
 
 			}
@@ -136,14 +132,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-558",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1122.0, 85.375, 145.0, 64.0 ],
-					"style" : "",
-					"text" : "C:/Program Files/Cycling '74/Max 7/NonLinearMoogVCFwSideChain.dll"
+					"patching_rect" : [ -1122.0, 85.375, 145.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -154,23 +148,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -998.0, 55.375, 252.0, 22.0 ],
+					"patching_rect" : [ -998.0, 55.375, 255.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf %sNonLinearMoogVCFwSideChain.dll"
+					"text" : "sprintf %sNonLinearMoogVCFwSideChain.vst"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-537",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1025.0, -23.0, 125.0, 50.0 ],
-					"style" : "",
-					"text" : "\"C:/Program Files/Cycling '74/Max 7/\""
+					"patching_rect" : [ -1025.0, -23.0, 103.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -195,9 +187,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -992.0, -112.0, 191.0, 36.0 ],
+					"patching_rect" : [ -992.0, -112.0, 191.0, 35.0 ],
 					"style" : "",
-					"text" : ";\r\nmax sendapppath app-path-name"
+					"text" : ";\rmax sendapppath app-path-name"
 				}
 
 			}
@@ -314,7 +306,7 @@
 						"overdrive" : 0,
 						"preffilename" : "Max 7 Preferences",
 						"searchformissingfiles" : 0,
-						"statusvisible" : 0,
+						"statusvisible" : 1,
 						"usesearchpath" : 1
 					}
 ,
@@ -559,10 +551,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1111.0, 355.0, 150.0, 48.0 ],
+					"patching_rect" : [ 1111.0, 355.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1124.953125, 263.960907, 85.90625, 48.0 ],
+					"presentation_rect" : [ 1124.953125, 263.960907, 85.90625, 47.0 ],
 					"style" : "",
 					"text" : "load plugins\n\nopen window"
 				}
@@ -605,7 +597,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -615.5, 399.0, 141.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1094.557251, 406.476563, 101.185913, 25.0 ],
+					"presentation_rect" : [ 1094.557251, 406.476562, 101.185913, 25.0 ],
 					"style" : "",
 					"text" : "control both"
 				}
@@ -622,7 +614,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -615.5, 370.0, 141.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1094.557251, 379.476563, 101.185913, 25.0 ],
+					"presentation_rect" : [ 1094.557251, 379.476562, 101.185913, 25.0 ],
 					"style" : "",
 					"text" : "right only"
 				}
@@ -639,7 +631,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -615.5, 341.0, 141.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1094.557251, 352.476563, 101.185913, 25.0 ],
+					"presentation_rect" : [ 1094.557251, 352.476562, 101.185913, 25.0 ],
 					"style" : "",
 					"text" : "left only"
 				}
@@ -659,7 +651,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -643.5, 336.110474, 19.0, 89.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1073.619751, 352.476563, 19.0, 89.0 ],
+					"presentation_rect" : [ 1073.619751, 352.476562, 19.0, 89.0 ],
 					"size" : 3,
 					"style" : "",
 					"value" : 2
@@ -728,7 +720,7 @@
 					"patching_rect" : [ 1284.000038, 176.000005, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1129.364624, 98.99221, 57.0, 34.0 ],
+					"presentation_rect" : [ 1129.364624, 98.99221, 57.0, 33.0 ],
 					"style" : "",
 					"text" : "envelop LFO"
 				}
@@ -915,10 +907,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1090.0, 413.891724, 150.0, 34.0 ],
+					"patching_rect" : [ 1090.0, 413.891724, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 963.125, 218.221375, 111.78125, 34.0 ],
+					"presentation_rect" : [ 963.125, 218.221375, 111.78125, 33.0 ],
 					"style" : "",
 					"text" : "sample and hold \nparameters ->"
 				}
@@ -1739,7 +1731,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -191.666672, 820.958313, 150.0, 34.0 ],
+					"patching_rect" : [ -191.666672, 820.958313, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "         mix\nlinear/nonlinear"
 				}
@@ -1822,24 +1814,6 @@
 										"filepath" : "~/Documents/Max 7/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "1fbcebd5be37433ebcad08a1c02c1964"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "NonLinearMoogVCFwSideChain",
-									"origin" : "NonLinearMoogVCFwSideChain.dll",
-									"type" : "VST",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "NonLinearMoogVCFwSideChain",
-										"filename" : "NonLinearMoogVCFwSideChain_20171220.maxsnap",
-										"filepath" : "~/Documents/Max 7/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "e85fb6d46efb5d78c182f6fd2f310a81"
 									}
 
 								}
@@ -10047,10 +10021,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -216.666672, 814.958313, 150.0, 34.0 ],
+					"patching_rect" : [ -216.666672, 814.958313, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1153.115356, 584.416626, 134.939087, 34.0 ],
+					"presentation_rect" : [ 1153.115356, 584.416626, 134.939087, 33.0 ],
 					"style" : "",
 					"text" : "---plugin parameters---\n resonance         cutoff"
 				}
@@ -10175,7 +10149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -165.791672, 793.416626, 150.0, 48.0 ],
+					"patching_rect" : [ -165.791672, 793.416626, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 666.0, 527.929688, 362.90625, 20.0 ],
 					"style" : "",
@@ -10190,10 +10164,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -238.666672, 778.666626, 231.0, 131.0 ],
+					"patching_rect" : [ -238.666672, 778.666626, 231.0, 127.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 3.0, 611.416626, 113.0, 158.0 ],
+					"presentation_rect" : [ 3.0, 611.416626, 113.0, 154.0 ],
 					"style" : "",
 					"text" : "MIDI LEARN\n\n faders/dials ->\n\nA lit toggle will allow controller to be changed. A dim toggle fixes the controller number. \n\nbuttons/switches ->"
 				}
@@ -10206,10 +10180,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -210.541672, 841.333313, 150.0, 62.0 ],
+					"patching_rect" : [ -210.541672, 841.333313, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1073.901001, 684.302063, 218.0, 34.0 ],
+					"presentation_rect" : [ 1073.901001, 684.302063, 218.0, 33.0 ],
 					"style" : "",
 					"text" : "------------------LFO select-------------------\nwave type          down param type up "
 				}
@@ -10222,10 +10196,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -226.666672, 836.958313, 150.0, 34.0 ],
+					"patching_rect" : [ -226.666672, 836.958313, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1078.182251, 584.416626, 70.0, 34.0 ],
+					"presentation_rect" : [ 1078.182251, 584.416626, 70.0, 33.0 ],
 					"style" : "",
 					"text" : "input/noise\n    gain"
 				}
@@ -10238,10 +10212,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -216.666672, 841.333313, 150.0, 34.0 ],
+					"patching_rect" : [ -216.666672, 841.333313, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 928.890564, 584.416626, 120.0, 34.0 ],
+					"presentation_rect" : [ 928.890564, 584.416626, 120.0, 33.0 ],
 					"style" : "",
 					"text" : "----------LFO---------- \ndepth                rate"
 				}
@@ -10404,10 +10378,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -172.041672, 828.958313, 73.0, 34.0 ],
+					"patching_rect" : [ -172.041672, 828.958313, 73.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 995.901001, 684.302063, 76.0, 34.0 ],
+					"presentation_rect" : [ 995.901001, 684.302063, 76.0, 33.0 ],
 					"style" : "",
 					"text" : "input/noise \nmod select"
 				}
@@ -10506,10 +10480,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -231.666672, 843.333313, 210.28125, 34.0 ],
+					"patching_rect" : [ -231.666672, 843.333313, 210.28125, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 462.038025, 685.125, 147.177063, 34.0 ],
+					"presentation_rect" : [ 462.038025, 685.125, 147.177063, 33.0 ],
 					"style" : "",
 					"text" : "select filter param control\nscroll up          scroll down"
 				}
@@ -10640,10 +10614,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -193.229172, 843.333313, 150.0, 34.0 ],
+					"patching_rect" : [ -193.229172, 843.333313, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 152.121338, 584.416626, 137.0, 34.0 ],
+					"presentation_rect" : [ 152.121338, 584.416626, 137.0, 33.0 ],
 					"style" : "",
 					"text" : "--------duty cycle----------\ntriangle           rectangle"
 				}
@@ -11160,10 +11134,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -184.041672, 841.333313, 102.0, 34.0 ],
+					"patching_rect" : [ -184.041672, 841.333313, 102.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 628.121338, 684.302063, 105.0, 34.0 ],
+					"presentation_rect" : [ 628.121338, 684.302063, 105.0, 33.0 ],
 					"style" : "",
 					"text" : "------octave------- \ndown              up"
 				}
@@ -11204,10 +11178,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -231.666672, 814.958313, 231.0, 62.0 ],
+					"patching_rect" : [ -231.666672, 814.958313, 231.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 622.621338, 584.416626, 276.0, 34.0 ],
+					"presentation_rect" : [ 622.621338, 584.416626, 276.0, 33.0 ],
 					"style" : "",
 					"text" : "-------------------------gain control-------------------------\nosc1                osc2              osc3              master"
 				}
@@ -11220,10 +11194,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -207.666672, 814.958313, 166.0, 62.0 ],
+					"patching_rect" : [ -207.666672, 814.958313, 166.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 773.371338, 684.302063, 196.0, 34.0 ],
+					"presentation_rect" : [ 773.371338, 684.302063, 196.0, 33.0 ],
 					"style" : "",
 					"text" : "----------transpose up/down----------\nosc1                osc2                osc3"
 				}
@@ -11902,7 +11876,7 @@
 					"patching_rect" : [ -193.229172, 807.958313, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 277.200012, 18.992195, 67.15625, 34.0 ],
+					"presentation_rect" : [ 277.200012, 18.992195, 67.15625, 33.0 ],
 					"style" : "",
 					"text" : "modulate with"
 				}
@@ -11970,7 +11944,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -291.25, 552.014648, 99.0, 34.0 ],
+					"patching_rect" : [ -291.25, 552.014648, 99.0, 33.0 ],
 					"style" : "",
 					"text" : "input / noise\nmodulation"
 				}
@@ -12351,7 +12325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1436.0, 286.0, 50.0, 36.0 ],
+					"patching_rect" : [ 1436.0, 286.0, 50.0, 35.0 ],
 					"style" : "",
 					"text" : "4 30999"
 				}
@@ -12532,7 +12506,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.5, -565.502563, 78.0, 34.0 ],
+					"patching_rect" : [ 358.5, -565.502563, 78.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 538.489563, 268.960907, 89.0, 20.0 ],
 					"style" : "",
@@ -12547,7 +12521,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.0, -565.502563, 78.0, 34.0 ],
+					"patching_rect" : [ 236.0, -565.502563, 78.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 174.15625, 268.960907, 92.0, 20.0 ],
 					"style" : "",
@@ -12864,7 +12838,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.03334, -306.377563, 67.0, 34.0 ],
+					"patching_rect" : [ 90.03334, -306.377563, 67.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 390.010406, 167.544281, 78.33493, 20.0 ],
 					"style" : "",
@@ -13074,10 +13048,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -226.666672, 794.666687, 150.0, 48.0 ],
+					"patching_rect" : [ -226.666672, 794.666687, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 253.78125, 188.221375, 98.25, 48.0 ],
+					"presentation_rect" : [ 253.78125, 188.221375, 98.25, 47.0 ],
 					"style" : "",
 					"text" : "<- set values\n\n<- current values"
 				}
@@ -13177,10 +13151,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -607.5, 803.597961, 58.0, 34.0 ],
+					"patching_rect" : [ -607.5, 803.597961, 58.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1080.119873, 505.023438, 58.0, 34.0 ],
+					"presentation_rect" : [ 1080.119873, 505.023438, 58.0, 33.0 ],
 					"style" : "",
 					"text" : "master\ngain"
 				}
@@ -13193,7 +13167,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -231.666672, 807.958313, 181.0, 34.0 ],
+					"patching_rect" : [ -231.666672, 807.958313, 181.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.15625, 232.450562, 228.0, 20.0 ],
 					"style" : "",
@@ -13236,10 +13210,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.5, 567.25, 165.0, 34.0 ],
+					"patching_rect" : [ 222.5, 567.25, 165.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 787.15625, 174.554688, 156.0, 34.0 ],
+					"presentation_rect" : [ 787.15625, 174.554688, 156.0, 33.0 ],
 					"style" : "",
 					"text" : "<-polyphonic (toggle not lit)\nmono ->        (toggle lit)"
 				}
@@ -13311,7 +13285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 814.5, -615.9375, 42.5, 34.0 ],
+					"patching_rect" : [ 814.5, -615.9375, 42.5, 33.0 ],
 					"style" : "",
 					"text" : "adsr toggle"
 				}
@@ -13353,7 +13327,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 927.5, 12.0625, 150.0, 34.0 ],
+					"patching_rect" : [ 927.5, 12.0625, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.15625, 169.283875, 225.0, 20.0 ],
 					"style" : "",
@@ -13727,7 +13701,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -310.125, 141.875, 54.375, 62.0 ],
+					"patching_rect" : [ -310.125, 141.875, 54.375, 60.0 ],
 					"style" : "",
 					"text" : "fader control\nof vst\nparams"
 				}
@@ -14147,7 +14121,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-74",
-					"items" : [ "vJoy Device", ",", "vJoy Device 2" ],
+					"items" : [ "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -14241,7 +14215,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-119",
-					"items" : [ "vJoy Device", ",", "vJoy Device 2" ],
+					"items" : [ "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -14349,10 +14323,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1424.666748, -314.708344, 50.0, 117.0 ],
+					"patching_rect" : [ 1424.666748, -314.708344, 50.0, 114.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 414.010406, 23.992195, 116.0, 48.0 ],
+					"presentation_rect" : [ 414.010406, 23.992195, 116.0, 47.0 ],
 					"style" : "",
 					"text" : "pitch bend range ->\n\nselect device  ->"
 				}
@@ -14365,10 +14339,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.950012, 218.235504, 48.0, 34.0 ],
+					"patching_rect" : [ 298.950012, 218.235504, 48.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 33.15625, 17.992195, 48.0, 34.0 ],
+					"presentation_rect" : [ 33.15625, 17.992195, 48.0, 33.0 ],
 					"style" : "",
 					"text" : "octave\nshift"
 				}
@@ -14381,10 +14355,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.0, 206.0, 53.0, 62.0 ],
+					"patching_rect" : [ 86.0, 206.0, 53.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 663.15625, 175.283875, 86.0, 34.0 ],
+					"presentation_rect" : [ 663.15625, 175.283875, 86.0, 33.0 ],
 					"style" : "",
 					"text" : "select filter param control"
 				}
@@ -14409,7 +14383,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -322.833313, -478.944946, 72.0, 34.0 ],
+					"patching_rect" : [ -322.833313, -478.944946, 72.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1010.90625, 23.992195, 124.0, 20.0 ],
 					"style" : "",
@@ -14504,7 +14478,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"items" : "<empty>",
+					"items" : [ "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -15013,7 +14987,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1503.666748, -165.708344, 41.0, 22.0 ],
+					"patching_rect" : [ 1503.666748, -165.708344, 41.0, 21.0 ],
 					"style" : "",
 					"text" : "midiin"
 				}
@@ -15029,7 +15003,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1503.666748, -114.708344, 50.0, 22.0 ],
+					"patching_rect" : [ 1503.666748, -114.708344, 50.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -15043,7 +15017,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 1503.666748, -139.708344, 110.0, 22.0 ],
+					"patching_rect" : [ 1503.666748, -139.708344, 110.0, 21.0 ],
 					"style" : "",
 					"text" : "xbendin"
 				}
@@ -15059,7 +15033,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1503.666748, -281.708344, 57.0, 22.0 ],
+					"patching_rect" : [ 1503.666748, -281.708344, 57.0, 21.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -16338,24 +16312,6 @@
 									}
 
 								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "NonLinearMoogVCFwSideChain",
-									"origin" : "NonLinearMoogVCFwSideChain.dll",
-									"type" : "VST",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "NonLinearMoogVCFwSideChain",
-										"filename" : "NonLinearMoogVCFwSideChain_20171220.maxsnap",
-										"filepath" : "~/Documents/Max 7/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "e85fb6d46efb5d78c182f6fd2f310a81"
-									}
-
-								}
  ]
 						}
 
@@ -16873,7 +16829,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1625.333374, -323.9375, 206.0, 351.0 ],
+					"patching_rect" : [ 1625.333374, -323.9375, 206.0, 342.0 ],
 					"style" : "",
 					"text" : "xbendin\ndifferent up and down ranges\n\nlayout controls on nano\n\nmodulator signal LFO (wheel crossfades dry to wet, various wave types including envelope, modulate pitch or filter)\nand try sah~ too! \n\nlegato? adsr~ help - check\n\nfilter envelope - check\n\n2nd VCO with smooth variable pitch +- fifth of 1st VCO\nmaybe just one wave type at a time including noise generator?\n\ntest exp pedal in drumpad\n\nlooper:\ntry peek~ instead of snashot~ \nploy~ problem"
 				}
@@ -21555,11 +21511,11 @@
 		"parameters" : 		{
 			"obj-108" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
 			"obj-107" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
-			"obj-67" : [ "vst~", "vst~", 0 ],
 			"obj-82" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-193" : [ "live.gain~[6]", "live.gain~[6]", 0 ],
 			"obj-233" : [ "vst~[1]", "vst~", 0 ],
 			"obj-101" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-67" : [ "vst~", "vst~", 0 ],
 			"obj-73" : [ "live.gain~[5]", "live.gain~[5]", 0 ]
 		}
 ,
@@ -21572,13 +21528,6 @@
 			}
 , 			{
 				"name" : "NonLinearMoogVCFwSideChain.maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../Max 7/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "NonLinearMoogVCFwSideChain_20171220.maxsnap",
 				"bootpath" : "~/Documents/Max 7/Snapshots",
 				"patcherrelativepath" : "../../Max 7/Snapshots",
 				"type" : "mx@s",
@@ -21598,18 +21547,14 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "xbendin2.mxe64",
-				"type" : "mx64"
-			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-					"fontsize" : [ 13.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 13.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -21618,8 +21563,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

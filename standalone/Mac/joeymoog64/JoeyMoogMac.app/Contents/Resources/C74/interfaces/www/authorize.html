@@ -1,0 +1,187 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="August Black, C74"/>
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/authorize.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="main" class="col-xs-8 col-xs-offset-2">
+          <div id="frontpage" class="hidden">
+            <h4 class="text-center">You are not currently signed in with a Cycling '74 account.</h4>
+            <div class="row row-top">
+              <div class="col-sm-12">A Cycling '74 account is needed in order to run Max in demo mode or to authorize Max using a subscription or purchase.</div>
+            </div>
+            <div class="row row-bottom">
+              <div class="col-sm-6">
+                <button class="btn btn-lg btn-primary show_signin_but">Sign in to your account</button>
+              </div>
+              <div class="col-sm-6">
+                <button id="show_create_account_but" class="btn btn-lg btn-success">Create a new account </button>
+              </div>
+            </div>
+            <div class="row row-bottom">
+              <div class="col-sm-12"><i>Max for Live users: Please start the Max for Live editor by editing a device in Live </i></div>
+            </div>
+          </div>
+          <div id="signinContainer" class="hidden">
+            <form id="signin_form" role="form">
+              <h4 class="text-center">Access your Cycling '74 account.</h4>
+              <div class="row row-top">
+                <div class="col-sm-4 text-right">Email or Username</div>
+                <div class="col-sm-8">
+                  <input id="signin_username" autofocus="autofocus" required="required" class="form-control input-lg"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 text-right">Password </div>
+                <div class="col-sm-8">
+                  <input id="signin_password" type="password" required="required" style="display:inline;" class="form-control input-lg"/>
+                </div>
+              </div>
+              <div class="row row-bottom">
+                <div class="col-sm-4 text-right">
+                  <div class="show_frontpage_but click_area">Back </div>
+                </div>
+                <div class="col-sm-8">
+                  <div id="signinButtonContainer">
+                    <div id="signinProgress" class="progress progress-striped active hidden">
+                      <div id="signinProgressBar" class="progress-bar"></div>
+                    </div>
+                    <button id="signinButton" type="submit" class="btn btn-lg btn-primary btn-block">Continue</button>
+                  </div>
+                </div>
+              </div>
+              <div class="row row-bottom">
+                <div class="col-sm-12 text-right">
+                  <div>Trouble logging in? <a href="max:launch_browser/https%3A%2F%2Fcycling74.com%2Fsupport" class="underline">Contact us.</a></div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div id="create_account_container" class="hidden">
+            <h4 class="text-center">Create a new Cycling '74 account.</h4>
+            <h5 class="text-center text-danger">** All four fields are required **</h5>
+            <form id="create_account_form" role="form" class="form-horizontal">
+              <div id="create_account_email_group" class="form-group">
+                <label for="create_account_email" class="col-sm-3 control-label">Email</label>
+                <div class="col-sm-9">
+                  <input id="create_account_email" type="email" autofocus="autofocus" required="required" class="form-control input-lg"/>
+                  <div id="create_account_email_exists" class="control-label hidden">
+                    <div>Username/email already exists. </div>
+                    <div><a href="#" class="show_signin_but">Log in to my existing account</a><span> or  </span><a href="max:launch_browser/https%3A%2F%2Fcycling74.com%2Fwp-login.php?action=lostpassword">recover my password</a></div>
+                  </div>
+                  <div id="create_account_email_invalid" class="control-label hidden">Invalid email</div>
+                </div>
+              </div>
+              <div id="create_account_password_group" class="form-group">
+                <label for="create_account_password" class="col-sm-3 control-label">Password</label>
+                <div class="col-sm-9">
+                  <input id="create_account_password" type="password" required="required" class="form-control input-lg"/>
+                  <div id="create_account_password_invalid" class="control-label hidden">Invalid password, must have at least 6 characters and not contain backslash '\'.</div>
+                </div>
+              </div>
+              <div id="create_account_firstname_group" class="form-group">
+                <label for="create_account_firstname" class="col-sm-3 control-label"> First name </label>
+                <div class="col-sm-9">
+                  <input id="create_account_firstname" type="text" required="required" class="form-control input-lg"/>
+                  <div id="create_account_firstname_invalid" class="control-label hidden">required</div>
+                </div>
+              </div>
+              <div id="create_account_lastname_group" class="form-group">
+                <label for="create_account_lastname" class="col-sm-3 control-label"> Last name </label>
+                <div class="col-sm-9">
+                  <input id="create_account_lastname" type="text" required="required" class="form-control input-lg"/>
+                  <div id="create_account_lastname_invalid" class="control-label hidden">required</div>
+                </div>
+              </div>
+              <div class="row row-bottom">
+                <div class="col-sm-3 text-right">
+                  <div class="show_frontpage_but click_area">Back </div>
+                </div>
+                <div class="col-sm-9">
+                  <div>
+                    <div id="create_account_progress" class="progress progress-striped active hidden">
+                      <div id="create_account_progress_bar" class="progress-bar"></div>
+                    </div>
+                    <button id="create_account_but" type="submit" data-progress="#create_account_progress" class="btn btn-lg btn-primary btn-block">Continue</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="row-bottom">
+              <div class="col-sm-6 text-right"><a href="max:launch_browser/https%3A%2F%2Fcycling74.com%2Fwp-activate.php" class="underline">Activate token</a></div>
+              <div class="col-sm-6 text-right">
+                <div>Trouble logging in? <a href="max:launch_browser/https%3A%2F%2Fcycling74.com%2Fsupport" class="underline">Contact us.</a></div>
+              </div>
+            </div>
+          </div>
+          <div id="activate_account_container" class="hidden">
+            <h4 class="text-center">Activate your Cycling '74 account.</h4>
+            <div class="row">
+              <div class="col-sm-12">
+                <h3 class="text-center text-danger">Don't close this page.</h3>
+                <p><span>Please check your email (</span><span class="email"></span><span>) for the account activation token.  Once you have received it, paste it here.</span></p>
+                <input id="activate_account" type="text" required="required" class="form-control input-lg"/>
+              </div>
+            </div>
+            <div class="row row-bottom">
+              <div class="col-sm-12">
+                <div id="activate_account_progress" class="progress progress-striped active hidden">
+                  <div id="activate_account_progress_bar" class="progress-bar"></div>
+                </div>
+                <button id="activate_account_but" type="submit" class="btn btn-lg btn-primary btn-block">Submit </button>
+              </div>
+            </div>
+            <div class="row-bottom">
+              <div class="col-sm-12 text-right">
+                <div>Trouble activating your account? <a href="max:launch_browser/https%3A%2F%2Fcycling74.com%2Fsupport" class="underline">Contact us.</a></div>
+              </div>
+            </div>
+          </div>
+          <div id="welcomeContainer" class="hidden">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <h4>License status  <span id="name"></span><span id="email"></span></h4>
+              </div>
+            </div>
+            <div id="max_lic" class="row row-top">
+              <div class="col-sm-4">
+                <div id="version">Max 7</div>
+                <div id="info">(perpetual license)</div>
+                <div id="expiration"></div>
+              </div>
+              <div class="col-sm-8">
+                <div id="fake_subscription_container" class="hidden">Cycling '74 granted this authorization manually.  It will not auto-renew. </div>
+                <div id="cancel_subscription_container" class="hidden">
+                  <button class="btn btn-warning btn-block">Review/Cancel Subscription</button>
+                </div>
+                <div id="buy_now" class="hidden">
+                  <form id="purchase_form" method="POST">
+                    <button id="goto_purchase_but" type="submit" value="Purchase" class="btn btn-success btn-block">Buy Now </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id="signout_but" class="click_area">Sign in as a different user</div>
+          </div>
+          <div id="reauth_container" class="hidden">
+            <div>Please wait one moment while we retrieve updated license information...</div>
+            <div id="reauth_progress" class="progress progress-striped active">
+              <div id="reauth_progress_bar" class="progress-bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/libs/require.js"></script>
+    <script type="text/javascript" src="js/authorize.js"></script>
+  </body>
+</html>

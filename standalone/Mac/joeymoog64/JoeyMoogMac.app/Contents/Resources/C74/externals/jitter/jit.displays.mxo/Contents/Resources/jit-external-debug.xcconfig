@@ -1,0 +1,8 @@
+#include "../../c74support/max-includes/max-external-debug.xcconfig"
+
+DSTROOT = $(EXTERNALS_ROOT)/jitter
+HEADER_SEARCH_PATHS = $(HEADER_SEARCH_PATHS_COMMON) "$(C74SUPPORT)/jit-includes"
+FRAMEWORK_SEARCH_PATHS = $(FRAMEWORK_SEARCH_PATHS_COMMON) "$(C74SUPPORT)/jit-includes/$(C74_FRAMEWORK_PATH_SUFFIX)"
+GCC_PREFIX_HEADER = $(C74SUPPORT)/max-includes/macho-gl-prefix.pch
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) C74_NO_DEPRECATION _DEBUG DEBUG
+

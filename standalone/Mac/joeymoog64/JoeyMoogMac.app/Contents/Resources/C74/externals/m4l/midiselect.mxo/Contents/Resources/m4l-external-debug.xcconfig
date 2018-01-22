@@ -1,0 +1,13 @@
+#include "../../c74support/max-includes/max-external-debug.xcconfig"
+
+C74SUPPORT = $(SRCROOT)/../../../c74support
+C74PRIVATE = $(SRCROOT)/../../../c74support-private
+C74_SYM_LINKER_FLAGS = @$(C74SUPPORT)/max-includes/c74_linker_flags.txt
+
+HEADER_SEARCH_PATHS = $(HEADER_SEARCH_PATHS_COMMON) "$(C74SUPPORT)/msp-includes" "$(C74PRIVATE)/plugin-support" "$(C74PRIVATE)/wires-support"
+FRAMEWORK_SEARCH_PATHS = $(FRAMEWORK_SEARCH_PATHS_COMMON) "$(C74SUPPORT)/msp-includes/$(C74_FRAMEWORK_PATH_SUFFIX)"
+SYSBUILD = $(SRCROOT)/../../../../sysbuild$(SYSBUILD_BRANCH)_$(ARCHS)
+DSTROOT = $(EXTERNALS_ROOT)/m4l
+
+GCC_PREFIX_HEADER = $(C74SUPPORT)/max-includes/macho-prefix.pch
+INFOPLIST_FILE = $(C74PRIVATE)/max-includes/Info.plist

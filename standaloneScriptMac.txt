@@ -1,0 +1,2 @@
+open thispatcher
+appicon /Users/joeyhook/Documents/GitHub/Moog/icons/joey8bit.icns
