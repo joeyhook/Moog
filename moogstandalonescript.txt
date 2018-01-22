@@ -1,1 +1,3 @@
-open thispatcherappicon C:/Users/joey/Desktop/Joey8bit.icoinclude "C:/Program Files/Cycling '74/Max 7/resources/externals/max/sprintf.mxe64"
+open thispatcher
+appicon C:/Users/joey/Documents/GitHub/Moog/icons/Joey8bit.ico
+include "C:/Program Files/Cycling '74/Max 7/resources/externals/max/sprintf.mxe64"include C:/Users/joey/Documents/GitHub/Moog/NonLinearMoogVCFwSideChain.dll
